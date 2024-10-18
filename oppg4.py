@@ -5,6 +5,9 @@
 #     "Frankrike": ["Paris", 2.161],
 #     "Italia": ["Roma", 2.873]
 # } <--Denne malen skrev jeg inn først her, og siden matet jeg den til chatgtp for å få en liste som inneholdt alle land i europa for de gadd jeg ikke skrive ut for hånd
+
+# ASCII Art: https://patorjk.com/
+
 print(r" /$$$$$$$$ /$$   /$$ /$$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$                                                        ")
 print(r"| $$_____/| $$  | $$| $$__  $$ /$$__  $$| $$__  $$ /$$__  $$                                                       ")
 print(r"| $$      | $$  | $$| $$  \ $$| $$  \ $$| $$  \ $$| $$  \ $$                                                       ")
@@ -76,7 +79,7 @@ data = {
     "Estland": ["Tallinn", 0.437],
     "Hviterussland": ["Minsk", 2.020],
     "Ukraina": ["Kyiv", 2.884],
-    "Russland": ["Moskva", 12.400],  # European part of Russia
+    "Russland": ["Moskva", 12.400],
     "Moldova": ["Chisinau", 0.492],
     "Luxembourg": ["Luxembourg", 0.128],
     "Monaco": ["Monaco", 0.039],
