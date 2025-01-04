@@ -40,7 +40,6 @@ def calculate_triangle(a, b):
     areal_triangle = (b * a) / 2
     areal_halfcircle = math.pi * (c / 2) * 2 #Math.pi for å enkelt ha pi verdi.
     omkrets_halvsirkel = (math.pi * c) / 2 # C vil være sirkelens diameter. pi*diameter = omkrets. Delt på to får vi omkrets til halve sirkelen.
-    print(c)
     print(
         f"Arealet av iskremen er {areal_halfcircle + areal_triangle}cm2 og omkretsen er {omkrets_halvsirkel + omkrets_triangel}cm.")
 
