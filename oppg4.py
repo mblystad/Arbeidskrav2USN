@@ -91,7 +91,7 @@ data = {
 }
 land = ""
 while land not in data:
-    land = input("Skriv inn et land i Europa, også skal du få vite hovedstad, og ca hvor mange millioner som bor i hovedstaden!")
+    land = input("Skriv inn et land i Europa, også skal du få vite hovedstad, og ca hvor mange millioner som bor i hovedstaden!").capitalize()
     try:
         print(land, "er landet du valgte, og hovedstaden er ", data[land][0], "og der bor det ca", data[land][1],"millioner mennesker. WOW! Hvem skulle trodd det? Andre de som bor der da.")
     except:
