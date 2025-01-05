@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 # Hint: np.linspace(-10, 10, 200) gir en array med 200 punkter jevnt fordelt på intervallet
 # [-10,10].
 x = np.linspace(-10, 10, 200)
-y = -x * 2 - 5
+y = -x ** 2 - 5
 
 # Graf informasjon: tittel, navn på x og y akse (hentet fra oppgavetekst)
 plt.title("f(x) = −x2 − 5")
