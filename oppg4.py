@@ -1,4 +1,3 @@
-
 # data = {
 #     "Norge": ["Oslo", 0.634],
 #     "England": ["London", 8.982],
@@ -8,39 +7,72 @@
 
 # ASCII Art: https://patorjk.com/
 
-print(r" /$$$$$$$$ /$$   /$$ /$$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$                                                        ")
-print(r"| $$_____/| $$  | $$| $$__  $$ /$$__  $$| $$__  $$ /$$__  $$                                                       ")
-print(r"| $$      | $$  | $$| $$  \ $$| $$  \ $$| $$  \ $$| $$  \ $$                                                       ")
-print(r"| $$$$$   | $$  | $$| $$$$$$$/| $$  | $$| $$$$$$$/| $$$$$$$$                                                       ")
-print(r"| $$__/   | $$  | $$| $$__  $$| $$  | $$| $$____/ | $$__  $$                                                       ")
-print(r"| $$      | $$  | $$| $$  \ $$| $$  | $$| $$      | $$  | $$                                                       ")
-print(r"| $$$$$$$$|  $$$$$$/| $$  | $$|  $$$$$$/| $$      | $$  | $$                                                       ")
-print(r"|________/ \______/ |__/  |__/ \______/ |__/      |__/  |__/                                                       ")
-print(r"                                                                                                                   ")
-print(r"                                                                                                                   ")
-print(r"                                                                                                                   ")
-print(r" /$$   /$$                                     /$$             /$$                     /$$                         ")
-print(r"| $$  | $$                                    | $$            | $$                    | $$                         ")
-print(r"| $$  | $$  /$$$$$$  /$$    /$$ /$$$$$$   /$$$$$$$  /$$$$$$$ /$$$$$$    /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$       ")
-print(r"| $$$$$$$$ /$$__  $$|  $$  /$$//$$__  $$ /$$__  $$ /$$_____/|_  $$_/   |____  $$ /$$__  $$ /$$__  $$ /$$__  $$      ")
-print(r"| $$__  $$| $$  \ $$ \  $$/$$/| $$$$$$$$| $$  | $$|  $$$$$$   | $$      /$$$$$$$| $$  | $$| $$$$$$$$| $$  \__/      ")
-print(r"| $$  | $$| $$  | $$  \  $$$/ | $$_____/| $$  | $$ \____  $$  | $$ /$$ /$$__  $$| $$  | $$| $$_____/| $$            ")
-print(r"| $$  | $$|  $$$$$$/   \  $/  |  $$$$$$$|  $$$$$$$ /$$$$$$$/  |  $$$$/|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$            ")
-print(r"|__/  |__/ \______/     \_/    \_______/ \_______/|_______/    \___/   \_______/ \_______/ \_______/|__/            ")
-print(r"                                                                                                                   ")
-print(r"                                                                                                                   ")
-print(r"                                                                                                                   ")
-print(r"                            /$$$$$$          /$$ /$$                                                               ")
-print(r"                           /$$__  $$        | $$| $$                                                               ")
-print(r"  /$$$$$$   /$$$$$$       | $$  \__//$$$$$$ | $$| $$   /$$                                                         ")
-print(r" /$$__  $$ /$$__  $$      | $$$$   /$$__  $$| $$| $$  /$$/                                                         ")
-print(r"| $$  \ $$| $$  \ $$      | $$_/  | $$  \ $$| $$| $$$$$$/                                                          ")
-print(r"| $$  | $$| $$  | $$      | $$    | $$  | $$| $$| $$_  $$                                                          ")
-print(r"|  $$$$$$/|  $$$$$$$      | $$    |  $$$$$$/| $$| $$ \  $$                                                         ")
-print(r" \______/  \____  $$      |__/     \______/ |__/|__/  \__/                                                         ")
-print(r"           /$$  \ $$                                                                                               ")
-print(r"          |  $$$$$$/                                                                                               ")
-print(r"           \______/                                                                                                 ")
+print(
+    r" /$$$$$$$$ /$$   /$$ /$$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$                                                        ")
+print(
+    r"| $$_____/| $$  | $$| $$__  $$ /$$__  $$| $$__  $$ /$$__  $$                                                       ")
+print(
+    r"| $$      | $$  | $$| $$  \ $$| $$  \ $$| $$  \ $$| $$  \ $$                                                       ")
+print(
+    r"| $$$$$   | $$  | $$| $$$$$$$/| $$  | $$| $$$$$$$/| $$$$$$$$                                                       ")
+print(
+    r"| $$__/   | $$  | $$| $$__  $$| $$  | $$| $$____/ | $$__  $$                                                       ")
+print(
+    r"| $$      | $$  | $$| $$  \ $$| $$  | $$| $$      | $$  | $$                                                       ")
+print(
+    r"| $$$$$$$$|  $$$$$$/| $$  | $$|  $$$$$$/| $$      | $$  | $$                                                       ")
+print(
+    r"|________/ \______/ |__/  |__/ \______/ |__/      |__/  |__/                                                       ")
+print(
+    r"                                                                                                                   ")
+print(
+    r"                                                                                                                   ")
+print(
+    r"                                                                                                                   ")
+print(
+    r" /$$   /$$                                     /$$             /$$                     /$$                         ")
+print(
+    r"| $$  | $$                                    | $$            | $$                    | $$                         ")
+print(
+    r"| $$  | $$  /$$$$$$  /$$    /$$ /$$$$$$   /$$$$$$$  /$$$$$$$ /$$$$$$    /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$       ")
+print(
+    r"| $$$$$$$$ /$$__  $$|  $$  /$$//$$__  $$ /$$__  $$ /$$_____/|_  $$_/   |____  $$ /$$__  $$ /$$__  $$ /$$__  $$      ")
+print(
+    r"| $$__  $$| $$  \ $$ \  $$/$$/| $$$$$$$$| $$  | $$|  $$$$$$   | $$      /$$$$$$$| $$  | $$| $$$$$$$$| $$  \__/      ")
+print(
+    r"| $$  | $$| $$  | $$  \  $$$/ | $$_____/| $$  | $$ \____  $$  | $$ /$$ /$$__  $$| $$  | $$| $$_____/| $$            ")
+print(
+    r"| $$  | $$|  $$$$$$/   \  $/  |  $$$$$$$|  $$$$$$$ /$$$$$$$/  |  $$$$/|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$            ")
+print(
+    r"|__/  |__/ \______/     \_/    \_______/ \_______/|_______/    \___/   \_______/ \_______/ \_______/|__/            ")
+print(
+    r"                                                                                                                   ")
+print(
+    r"                                                                                                                   ")
+print(
+    r"                                                                                                                   ")
+print(
+    r"                            /$$$$$$          /$$ /$$                                                               ")
+print(
+    r"                           /$$__  $$        | $$| $$                                                               ")
+print(
+    r"  /$$$$$$   /$$$$$$       | $$  \__//$$$$$$ | $$| $$   /$$                                                         ")
+print(
+    r" /$$__  $$ /$$__  $$      | $$$$   /$$__  $$| $$| $$  /$$/                                                         ")
+print(
+    r"| $$  \ $$| $$  \ $$      | $$_/  | $$  \ $$| $$| $$$$$$/                                                          ")
+print(
+    r"| $$  | $$| $$  | $$      | $$    | $$  | $$| $$| $$_  $$                                                          ")
+print(
+    r"|  $$$$$$/|  $$$$$$$      | $$    |  $$$$$$/| $$| $$ \  $$                                                         ")
+print(
+    r" \______/  \____  $$      |__/     \______/ |__/|__/  \__/                                                         ")
+print(
+    r"           /$$  \ $$                                                                                               ")
+print(
+    r"          |  $$$$$$/                                                                                               ")
+print(
+    r"           \______/                                                                                                 ")
 
 data = {
     "Norge": ["Oslo", 0.634],
@@ -89,10 +121,31 @@ data = {
     "Malta": ["Valletta", 0.006],
     "Vatikanstaten": ["Vatikanstaten", 0.001]
 }
+
+print("Dette er oppgave a, a for Alphaville")
 land = ""
 while land not in data:
-    land = input("Skriv inn et land i Europa, også skal du få vite hovedstad, og ca hvor mange millioner som bor i hovedstaden!").capitalize()
+    land = input(
+        "Skriv inn et land i Europa, også skal du få vite hovedstad, og ca hvor mange millioner som bor i hovedstaden! ")
     try:
-        print(land, "er landet du valgte, og hovedstaden er ", data[land][0], "og der bor det ca", data[land][1],"millioner mennesker. WOW! Hvem skulle trodd det? Andre de som bor der da.")
+        print(land, "er landet du valgte, og hovedstaden er ", data[land][0], "og der bor det ca", data[land][1],
+              "millioner mennesker. WOW! Hvem skulle trodd det? Andre de som bor der da.")
     except:
         ValueError("Du har ikke skrevet et land i Europa. Du klarer vel å komme på et?")
+
+# Lag et program som ber brukeren skrive inn info om et nytt land (altså et land som
+# ikke allerede finnes i dictionaryen data). Videre skal brukeren oppgi hovedstad og
+# antall innbyggere for det «nye» landet. Programmet skal så utvide/oppdatere
+# dictionaryen med den nye informasjonen. Dictionaryen data skrives så til skjerm.
+print("Dette er oppgave b, b for Billy Idol")
+
+nyttland = input("Gi et navn på et nytt land, bare finn på et, oppgaveteksten sa ingenting om at det måtte finnes på ekte. ")
+nyhovedstad = input("Så må vi ha et navn på hovedstaden? ")
+befolkning = ""
+try:
+    befolkning = int(input("Hvor mange bor der i millioner? "))
+except:
+    ValueError("Du har ikke skrevet et tall, prøv igjen!")
+hovedstadbefolkning = [nyhovedstad, befolkning]
+data.update({nyttland: hovedstadbefolkning})
+print(data)
